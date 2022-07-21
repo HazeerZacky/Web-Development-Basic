@@ -1,0 +1,45 @@
+/* 
+    *{
+        //Select All Elements
+    }
+
+    .classname{
+        //Multiple class use
+    }
+
+    #idname{
+        //Single design unique
+    }
+
+*/
+
+
+*{
+    font-size: large;
+}
+
+/* .intro{
+    Class
+} */
+
+/* #intro{
+    ID
+} */
+
+
+.first{
+    color: white;
+}
+
+.first h1{
+    font-size: 100px;
+    color: blue;
+}
+
+.first > p{
+    background-color: blue;
+}
+
+#intro{
+    text-align: center;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- head definitions go here -->
+        <title></title>
+    </head>
+    <body>
+        <!-- the content goes here -->
+    <!-- Forms -->
+    <form action="./php/process.php" method="POST">
+        <div>
+            <label>First Name : </label>
+            <input type="text" name="first-name" required>
+        </div>
+        <br>
+
+        <div>
+            <label>Last Name : </label>
+            <input type="text" name="last-name" required>
+        </div>
+        <br>
+
+        <div>
+            <label>Email : </label>
+            <input type="email" name="email" placeholder="Type your correct email address..." required>
+        </div>
+        <br>
+
+        <div>
+            <label>Message : </label>
+            <textarea name="msg" id="" cols="50" rows="10" required></textarea>
+        </div>
+        <br>
+
+        <div>
+            <label>Gender : </label>
+            <select name="gender" id="gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <br>
+
+        <div>
+            <label>Age : </label>
+            <input type="number" name="age" required>
+        </div>
+        <br>
+
+        <div>
+            <label>Birthday : </label>
+            <input type="date" name="bday" required>
+        </div>
+        <br>
+
+        <div>
+            <label>Profile Picture : </label>
+            <input type="file" name="imgfile" required>
+        </div>
+        <br>
+
+        <div>
+            <label>Favourite Food : </label>
+            <input type="checkbox" name="apple" value="apple"> <label>Apple</label>
+            <input type="checkbox" name="chocolate" value="chocolate"> <label>Chocolate</label>
+            <input type="checkbox" name="cake" value="cake"> <label>Cake</label>
+        </div>
+        <br>
+
+        <div>
+            <label>User Type : </label>
+            <input type="radio" id="static" name="usertype" value="static"> <label>Static</label>
+            <input type="radio" id="dynamic" name="usertype" value="dynamic"> <label>Dynamic</label>
+        </div>
+        <br>
+
+        <div>
+            <input type="submit" value="Submit" name="submit">
+            <!-- <button type="submit">Submit</button> -->
+        </div>
+    </form>
+    </body>
+</html>
