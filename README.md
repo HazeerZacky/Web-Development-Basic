@@ -4,7 +4,7 @@ started(*) items are done.
 
 Getting Started with HTML & CSS
     Hello, World!*
-    <br>
+
     Basic Elements*
     Links*
     Lists*
