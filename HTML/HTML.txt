@@ -1,4 +1,4 @@
-Getting Started with HTML & CSS
+Getting Started with HTML
     Hello, World!*
     Basic Elements*
     Links*
@@ -13,20 +13,6 @@ Getting Started with HTML & CSS
     Grid Layout*
     JavaScript*
     Colors*
-    Display
-    Box Model
-    Icons
-
-Bootstrap Elements
-    Buttons
-    Navigation Bar
-    Dropdowns
-    Tooltips
-    List Design
-    Table Design
-    Form Design
-
-Advanced HTML Tutorials
     Text Formatting*
     Tables*
     Iframes*
@@ -35,44 +21,12 @@ Advanced HTML Tutorials
     SVG*
     Video*
     Audio*
+    Display
+    Box Model
+    Icons
     Drag and Drop
     Local Storage
     App Cache
     Web Workers
     Server-Sent Events
 
-Advanced CSS Tutorials
-    Height and Width
-    Responsive Web Design
-    Box Sizing
-    Outline
-    Fonts
-    Text Effects
-    Link Design
-    Position
-    Negative Margins
-    Overflow
-    Float
-    Text Alignment
-    Opacity
-    Border Images
-    Backgrounds
-    Gradients
-    Shadows
-    Rounded Corners
-    Transforms
-    Transitions
-    Media Queries
-    Advanced Selectors
-    Filters
-
-Expert CSS Tutorials
-    Animations
-    Viewport
-    Flexbox
-    Columns
-    CSS Variables
-    3D Transforms
-    Input Pseudo-classes
-    Pseudo-elements
-    Contributing Tutorials
