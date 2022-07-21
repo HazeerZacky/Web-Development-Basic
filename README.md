@@ -3,8 +3,8 @@
 started(*) items are done.
 
 Getting Started with HTML & CSS
-    Hello, World!*
 
+    Hello, World!*
     Basic Elements*
     Links*
     Lists*
@@ -23,6 +23,7 @@ Getting Started with HTML & CSS
     Icons
 
 Bootstrap Elements
+
     Buttons
     Navigation Bar
     Dropdowns
@@ -32,6 +33,7 @@ Bootstrap Elements
     Form Design
 
 Advanced HTML Tutorials
+
     Text Formatting*
     Tables*
     Iframes*
@@ -47,6 +49,7 @@ Advanced HTML Tutorials
     Server-Sent Events
 
 Advanced CSS Tutorials
+
     Height and Width
     Responsive Web Design
     Box Sizing
