@@ -5,16 +5,16 @@ Backgrounds*
 Borders*
 Margins*
 Padding*
-Height/Width
-Box Model
-Outline
-Text
-Fonts
-Icons
-Links
-Lists
-Tables
-Display
+Height/Width*
+Box Model*
+Outline*
+Text*
+Fonts*
+Icons*
+Links*
+Lists*
+Tables*
+Display*
 Max-width
 Position
 Z-index
