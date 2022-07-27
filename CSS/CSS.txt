@@ -1,10 +1,10 @@
 Introduction*
 Selectors*
-Colors
-Backgrounds
-Borders
-Margins
-Padding
+Colors*
+Backgrounds*
+Borders*
+Margins*
+Padding*
 Height/Width
 Box Model
 Outline
