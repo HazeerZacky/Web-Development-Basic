@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- StyleSheet -->
+        <link rel="stylesheet" href="">
+        <style>
+
+        </style>
+        <!-- head definitions go here -->
+        <title>Conditional & Assignment Operators</title>
+    </head>
+    <body>
+        <!-- the content goes here -->
+        <script>
+
+            // Conditional Operators
+
+            // variableName = booleanExpress ? trueValue : falseValue
+            var age = 16, isMainor;
+            isMainor = age >= 18 ? 'No' : 'Yes';
+            console.log('isMinor', isMainor);
+
+            // Assignment Operators
+            // Compound Operators
+
+            var balance1 = 5000, credit1 = 2000;
+            // balance1 = balance1 + credit1;
+            balance1 += credit1;
+            console.log('Balance: ', balance1); // 7000
+            
+            var balance2 = 5000, credit2 = 2000;
+            // balance2 = balance2 - credit2;
+            balance2 -= credit2;
+            console.log('Balance: ', balance2); // 3000
+
+            var balance3 = 5000, credit3 = 2;
+            // balance3 = balance3 * credit3;
+            balance3 *= credit3;
+            console.log('Balance: ', balance3); // 10000
+
+            var balance4 = 5000, credit4 = 2;
+            // balance4 = balance4 / credit4;
+            balance4 /= credit4;
+            console.log('Balance: ', balance4); // 2500
+        </script>
+
+
+        <h1>Conditional & Assignment Operators</h1>
+    </body>
+</html>
