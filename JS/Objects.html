@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- StyleSheet -->
+        <link rel="stylesheet" href="">
+        <style>
+
+        </style>
+        <!-- head definitions go here -->
+        <title></title>
+    </head>
+    <body>
+        <!-- the content goes here -->
+        <script>
+
+            // Object
+            var person = new Object();
+            console.log(person instanceof Object);
+
+            person.name = "Hazeer";
+            person.profession = "Software Developper";
+
+            console.log(person.name);
+            console.log(person.profession);
+
+            // Function as a Object
+            person.sayHi = function() {
+                console.log('Hi ' + person.name);
+            }
+
+            person.sayHi();
+
+            
+        </script>
+    </body>
+</html>
