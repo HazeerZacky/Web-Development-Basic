@@ -22,20 +22,40 @@
 
         
         <script>
-            var result = 10 + 20;
+
+            var number1 = 20, number2 = 3, result;
+
+            // Addtion
+            result = number1 + number2;
             document.write('Addtion: ' + result + "<br>");
 
-            result = result - 5;
+            // Subtraction
+            result = number1 - number2;
             document.write('Subtraction: ' + result + "<br>");
             
-            result = result * 2;
+            // Multiplication
+            result = number1 * number2;
             document.write('Multiplication: ' + result + "<br>");
             
-            result = result / 5;
+            // Devision
+            result = number1 / number2;
             document.write('Devision: ' + result + "<br>");
             
-            result = result % 3;
+            // Modulus
+            result = number1 % number2;
             document.write('Modulus: ' + result + "<br>");
+            
+            // Power
+            result = number1 ** number2;
+            document.write('Power: ' + result + "<br>");
+            
+            // Increment
+            document.write('Increment(Pre): ' + number1++ + "<br>");
+            document.write('Increment(Post): ' + ++number1 + "<br>");
+            
+            // Decrement
+            document.write('Decrement(Pre): ' + number1-- + "<br>");
+            document.write('Decrement(Post): ' + --number1 + "<br>");
         </script>
 
 
