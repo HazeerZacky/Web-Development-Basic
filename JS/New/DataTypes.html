@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- StyleSheet -->
+        <link rel="stylesheet" href="">
+        <script src=""></script>
+        <style>
+            /* --------------- */
+        </style>
+        <script>
+            /* --------------- */
+        </script>
+        <!-- head definitions go here -->
+        <title>Outputs</title>
+    </head>
+    <body>
+        <!-- the content goes here -->
+        <!-- 
+            let length = 16;                               // Number
+            let lastName = "Johnson";                      // String
+            let x = {firstName:"John", lastName:"Doe"};    // Object
+        -->
+
+        <h1>JavaScript Types are Dynamic</h1>
+        <script>
+            let x;         // Now x is undefined
+            x = 5;         // Now x is a Number
+            x = "John";    // Now x is a String
+            document.write(x);
+        </script>
+        <hr>
+
+        <h1>JavaScript Strings</h1>
+        <script>
+            let carName1 = "Volvo XC60";
+            let carName2 = 'Volvo XC60';
+            document.write(carName1 + "<br>" + carName2);
+        </script>
+        <hr>
+
+        <h1>JavaScript Numbers</h1>
+        <script>
+            let x1 = 34.00;     // Written with decimals
+            let x2 = 34;        // Written without decimals
+            let x3 = 3.14;
+            let x4 = 123e5;      // 12300000
+            let x5 = 123e-5;     // 0.00123
+
+            document.write("34.00 = " + x1 + "<br>");
+            document.write("34 = " + x2 + "<br>");
+            document.write("3.14 = " + x3 + "<br>");
+            document.write("123e5 = " + x4 + "<br>");
+            document.write("123e-5 = " + x5 + "<br>");
+        </script>
+        <hr>
+
+        <h1>JavaScript Booleans</h1>
+        <script>
+            let y1 = 5;
+            let y2 = 5;
+            let y3 = 6;
+            // (y1 == y2)       // Returns true
+            // (y1 == y3)       // Returns false
+
+            document.write("(y1 == y2) = ");
+            document.write(y1 == y2);
+            document.write("<br>");
+            document.write("(y1 == y3) = ");
+            document.write(y1 == y3);
+        </script>
+
+        <hr>
+
+        <h1>JavaScript Arrays</h1>
+        <script>
+            const cars = ["Saab","Volvo","BMW"];
+
+            document.write("");
+            for(let a=0; a<3; a++) {
+                document.write(cars[a] + "<br>");
+            }
+
+        </script>
+
+        <hr>
+
+        <h1>JavaScript Objects</h1>
+        <script>
+        const person = {
+        firstName : "Hazeer",
+        lastName  : "Zacky",
+        age     : 25,
+        eyeColor  : "black"
+        };
+
+        document.write(person.firstName + " is " + person.age + " years old");
+
+        </script>
+        <hr>
+
+        <h1>The typeof Operator</h1>
+        <script>
+
+            // Number
+            document.write("0: " + typeof 0 + "<br>");
+            document.write("354: " + typeof 354 + "<br>");
+            document.write("3.25: " + typeof 3.25 + "<br>");
+            document.write("(3 + 5): " + typeof (3 + 5) + "<br>");
+            document.write("0.536: " + typeof 0.536 + "<br>");
+            document.write("10200000: " + typeof 10200000 + "<br>");
+
+            // String
+            document.write(": " + typeof "" + "<br>"); 
+            document.write("John: " + typeof "John" + "<br>");
+            document.write("John Cena: " + typeof "John Cena" + "<br>");
+
+        </script>
+        <hr>
+
+    </body>
+</html>

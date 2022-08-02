@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- StyleSheet -->
+        <link rel="stylesheet" href="">
+        <script src=""></script>
+        <style>
+            /* --------------- */
+        </style>
+        <script>
+            /* --------------- */
+        </script>
+        <!-- head definitions go here -->
+        <title>Outputs</title>
+    </head>
+    <body>
+        <!-- the content goes here -->
+        <!--
+            * There are 4 type of outputs.
+            ! Using innerHTML
+            ! Using document.write()
+            ! Using window.alert()
+            ! Using console.log()
+            ! Using JavaScript Print
+        -->
+
+        <!-- ? Using innerHTML -->
+        <h2>Using innerHTML</h2>
+
+        <p id="demo"></p> <!-- Using ID -->
+
+        <script>
+            document.getElementById("demo").innerHTML = "This is innerHTML";
+        </script>
+
+        <hr>
+
+        <h2>Using document.write()</h2>
+        <script>
+            document.write("This is document.write()");
+        </script>
+        <br>
+        <h2>Using document.write() in Button</h2>
+        <button type="button" onclick="document.write(5 + 6)">Try it</button>
+
+        <hr>
+
+        <h2>Using window.alert()</h2>
+        <script>
+            //window.alert("Using window.alert()"); // Skip Window key also
+            alert("Using window.alert()");
+        </script>
+
+        <hr>
+
+        <h2>Using console.log()</h2>
+
+        <p>Plesae see the consol log</p>
+
+        <script>
+            console.log("Using console.log()");
+        </script>
+
+        <hr>
+
+        <h2>JavaScript Print</h2>
+
+        <button onclick="window.print()">Print this page</button>
+        
+    </body>
+</html>

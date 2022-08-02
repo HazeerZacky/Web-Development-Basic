@@ -2,17 +2,17 @@ JS Tutorial
 
 Introduction
 Where To
-Output
-Statements
-Syntax
-Comments
-Variables
-Let
-Const
-Operators
-Arithmetic
-Assignment
-Data Types
+Output * *
+Statements*
+Syntax*
+Comments*
+Variables*
+Let*
+Const*
+Operators*
+Arithmetic*
+Assignment*
+Data Types*
 Functions
 Objects
 Events
