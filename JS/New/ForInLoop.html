@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- StyleSheet -->
+        <link rel="stylesheet" href="">
+        <script src=""></script>
+        <style>
+            /* --------------- */
+        </style>
+        <script>
+            /* --------------- */
+        </script>
+        <!-- head definitions go here -->
+        <title>For In loop</title>
+    </head>
+    <body>
+        <!-- the content goes here -->
+        <script>
+            const person = {
+                name: 'Hazeer',
+                age: 25,
+                sex: 'Male'
+            };
+
+            for(let index in person) {
+                // Code
+                // console.log("Key: ", key);
+                console.log(index + ": ", person[index]);
+            }
+
+            // Array
+            let color = ["red", "blue", "green"];
+
+            for(let key in color) {
+                console.log(color[key]);
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- StyleSheet -->
+        <link rel="stylesheet" href="">
+        <script src=""></script>
+        <style>
+            /* --------------- */
+        </style>
+        <script>
+            /* --------------- */
+        </script>
+        <!-- head definitions go here -->
+        <title>Object</title>
+    </head>
+    <body>
+        <!-- the content goes here -->
+        <script>
+            let person = {
+                name: "Hazeer",
+                age: 25,
+                intrest: ['Creating, Teaching new things.'],
+                isAlive: true,
+                address: {
+                    city: "Kalmunai",
+                    country: "Sri Lanka",
+                },
+                greeting: function() {
+                    let msg = `My name is ${this.name}, i love ${this.intrest}`;
+                console.log(msg);
+                }
+            };
+            console.log(person.greeting());
+        </script>
+    </body>
+</html>

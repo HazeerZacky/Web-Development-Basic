@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- StyleSheet -->
+        <link rel="stylesheet" href="">
+        <script src=""></script>
+        <style>
+            /* --------------- */
+        </style>
+        <script>
+            /* --------------- */
+        </script>
+        <!-- head definitions go here -->
+        <title>Fectory Function</title>
+    </head>
+    <body>
+        <!-- the content goes here -->
+        <script>
+            // #36 Video 
+            function createPerson(name) {
+                return {
+                    name: name,
+                    greeting() {
+                        let msg = `My name is ${this.name}, i love`;
+                        console.log(msg);
+                    }
+                };
+            }
+
+            let hazeer = createPerson("Hazeer");
+            hazeer.greeting();
+            let zacky = createPerson("Zacky");
+            zacky.greeting();
+        </script>
+    </body>
+</html>
