@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- StyleSheet -->
+        <link rel="stylesheet" href="">
+        <script src=""></script>
+        <style>
+            /* --------------- */
+        </style>
+        <script>
+            /* --------------- */
+        </script>
+        <!-- head definitions go here -->
+        <title>Constructor</title>
+    </head>
+    <body>
+        <!-- the content goes here -->
+        <script>
+            // #37 Video 
+
+
+            // Constructor Function
+            function Person(name) {
+                this.name = name;
+                this.greeting = function() {
+                    console.log(`My name is ${this.name}`);
+                }
+            }
+            let person = new Person("Anbu");
+            person.greeting();
+        </script>
+    </body>
+</html>
