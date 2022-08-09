@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- StyleSheet -->
+        <link rel="stylesheet" href="">
+        <script src=""></script>
+        <style>
+            /* --------------- */
+        </style>
+        <script>
+            /* --------------- */
+        </script>
+        <!-- head definitions go here -->
+        <title>Outputs</title>
+    </head>
+    <body>
+        <!-- the content goes here -->
+        <script>
+            const user = {
+                name: 'Hazeer',
+                getFullName() {
+                    console.log(`My name is ${this.name}`);
+                }
+            }
+
+            let another = {
+                ...user
+            }
+            console.log(another);
+        </script>
+    </body>
+</html>
