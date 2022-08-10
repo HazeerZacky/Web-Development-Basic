@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- StyleSheet -->
+        <link rel="stylesheet" href="">
+        <script src=""></script>
+        <style>
+            /* --------------- */
+        </style>
+        <script>
+            /* --------------- */
+        </script>
+        <!-- head definitions go here -->
+        <title>Arrays</title>
+    </head>
+    <body>
+        <!-- the content goes here -->
+        <script>
+
+            // Solution 1
+            let num1 = [1,2,3,4];
+            num1 = [];
+            console.log(num1);
+
+            // Solution 2
+            let num2 = [1,2,3,4];
+            num2.length = 0;
+            console.log(num2);
+
+            // Solution 3
+            let num3 = [11,21,31,41];
+            num3.splice(0,4);
+            console.log(num3);
+
+            // Solution 4
+            let num4 = [11,21,31,41];
+            while (num4.length) {
+                num4.pop();
+            }
+            console.log(num4);
+
+        </script>
+    </body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- StyleSheet -->
+        <link rel="stylesheet" href="">
+        <script src=""></script>
+        <style>
+            /* --------------- */
+        </style>
+        <script>
+            /* --------------- */
+        </script>
+        <!-- head definitions go here -->
+        <title>Arrays</title>
+    </head>
+    <body>
+        <!-- the content goes here -->
+        <script>
+
+            const shopping_cart = ['Maagi', 'Beans', 'Masala'];
+            const additional_cart = ['Matchbox', 'Salt'];
+
+            // Combine - Concat
+            // let recipe  = shopping_cart.concat(additional_cart);
+            
+            // Spread Operator
+            let recipe  = [...shopping_cart, ...additional_cart];
+            console.log(recipe);
+        </script>
+    </body>
+</html>

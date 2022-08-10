@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- StyleSheet -->
+        <link rel="stylesheet" href="">
+        <script src=""></script>
+        <style>
+            /* --------------- */
+        </style>
+        <script>
+            /* --------------- */
+        </script>
+        <!-- head definitions go here -->
+        <title>Arrays</title>
+    </head>
+    <body>
+        <!-- the content goes here -->
+        <script>
+
+            // Join
+            const dailyRoutine = ['Wake up', 'Eat', 'Sleep'];
+            let dailyRoutines = dailyRoutine.join(", ")
+            console.log(dailyRoutines);
+
+            // Splitting
+            let fullName = "Hazeer Zacky";
+            let name = fullName.split(' ');
+            console.log(name);
+
+            firstName = name[0];
+            lastName = name[1];
+            console.log(`My Firast name is ${firstName} and my last name is ${lastName}`);
+
+            let postTitle = "This is my post";
+            let postSlug = postTitle.split(" ");
+
+            let finalSlug = postSlug.join("_");
+            console.log(finalSlug);
+            
+            let LowerPostSlug = postTitle.toLowerCase().split(" ");
+            let lowerFinalSlug = LowerPostSlug.join("_");
+            console.log(lowerFinalSlug);
+
+        </script>
+    </body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- StyleSheet -->
+        <link rel="stylesheet" href="">
+        <script src=""></script>
+        <style>
+            /* --------------- */
+        </style>
+        <script>
+            /* --------------- */
+        </script>
+        <!-- head definitions go here -->
+        <title>Arrays</title>
+    </head>
+    <body>
+        <!-- the content goes here -->
+        <script>
+            // Mapping Array
+            const number = [1,2,3,4,5];
+            console.log(number);
+
+            let final = number.map(function(val) {
+                return val * 2;
+            });
+            console.log(final);
+
+
+            const prople = [
+                {id: 1, firstName: "Hazeer", lastName: "Zacky"},
+                {id: 2, firstName: "Anbu", lastName: "Selvan"},
+                {id: 3, firstName: "Nayan", lastName: "Thara"},
+            ];
+
+            let fina = prople.map(function(val) {
+                return [val.firstName, val.lastName].join(" ");
+            })
+            console.log(fina);
+        </script>
+    </body>
+</html>

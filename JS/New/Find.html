@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- StyleSheet -->
+        <link rel="stylesheet" href="">
+        <script src=""></script>
+        <style>
+            /* --------------- */
+        </style>
+        <script>
+            /* --------------- */
+        </script>
+        <!-- head definitions go here -->
+        <title>Arrays</title>
+    </head>
+    <body>
+        <!-- the content goes here -->
+        <script>
+            // Objects
+            const carditems = [
+                { id: 1, item: "Android Mobile", cost: "6500" },
+                { id: 2, item: "iPhone Mobile", cost: "27000" },
+                { id: 3, item: "Windows Mobile", cost: "8500" },
+            ];
+
+            let affordableFilter = carditems.filter(value => {
+                return value.cost < 10000;
+            });
+            console.log("affordable Phone: ", affordableFilter);
+
+            let affordableFind = carditems.find(value => {
+                return value.cost < 10000;
+            });
+            console.log("Affordable Find Phone: ", affordableFind);
+
+            let affordableFindIndex = carditems.findIndex(value => {
+                return value.cost < 10000;
+            });
+            console.log("Affordable Find Index Phone: ", affordableFindIndex);
+
+        </script>
+    </body>
+</html>

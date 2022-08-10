@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- StyleSheet -->
+        <link rel="stylesheet" href="">
+        <script src=""></script>
+        <style>
+            /* --------------- */
+        </style>
+        <script>
+            /* --------------- */
+        </script>
+        <!-- head definitions go here -->
+        <title>Arrays</title>
+    </head>
+    <body>
+        <!-- the content goes here -->
+        <script>
+
+            const students = [6,4,9,2];
+            console.log(students);
+
+            // Reverce
+            students.reverse()
+            console.log(students);
+
+            // Assending Short
+            students.sort();
+            console.log(students);
+            
+            // Dessending Short
+            students.sort(function(a,b) {
+                return b - a;
+            });
+            console.log(students);
+
+            const stu  = [
+                {id: 3, name: "Senthil"},
+                {id: 8, name: "Guna"},
+                {id: 1, name: "Anbu"},
+            ];
+            console.log(stu);
+
+            stu.sort(function (a,b) {
+                // a < b => -1
+                if (a.name < b.name) return -1;
+                
+                // a > b => 1
+                if (a.name > b.name) return 1;
+
+                // a === b => 0
+                return 0;
+            });
+            console.log(stu);
+
+        </script>
+    </body>
+</html>
